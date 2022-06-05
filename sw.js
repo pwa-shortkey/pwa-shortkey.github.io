@@ -1,6 +1,6 @@
 // Cache names
-var dataCacheName = 'GPA-Cal'
-var cacheName = 'GPA_Cal'
+var dataCacheName = 'ShortKEY'
+var cacheName = 'ShortKEY'
 // Application shell files to be cached
 var filesToCache = [
 	'/',
@@ -9,7 +9,7 @@ var filesToCache = [
 	'materialize.min.js',
 	'css/style.css',
 	'css/materialize.min.css',
-	'src/icon/assets/icons/icon-512x512.png'
+	'src/icon/icon-512x512.png'
 ]
 self.addEventListener('install', function (e) {
 	console.log('[ServiceWorker] Install')
